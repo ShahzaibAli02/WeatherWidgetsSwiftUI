@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="title_activity_main">WeatherApp</string>
+    <string name="package_name">io.ionic.starter</string>
+    <string name="custom_url_scheme">io.ionic.starter</string>
+    <string name="app_widget_description">"Weather app widget to show info weather real time "</string>
+
+    <string name="nan" translatable="false">NAN</string>
+    <string name="weather_code_not_determined">A weather code could not be determined</string>
+    <string name="clear_sky">Clear sky</string>
+    <string name="light_clouds">Light clouds</string>
+    <string name="partly_cloudy">Partly cloudy</string>
+    <string name="cloudy">Cloudy</string>
+    <string name="rain">Rain</string>
+    <string name="rain_and_snow_sleet">Rain and snow / sleet</string>
+    <string name="snow">Snow</string>
+    <string name="rain_shower">Rain shower</string>
+    <string name="snow_shower">Snow shower</string>
+    <string name="sleet_shower">Sleet shower</string>
+    <string name="light_fog">Light Fog</string>
+    <string name="dense_fog">Dense Fog</string>
+    <string name="freezing_rain">Freezing rain</string>
+    <string name="thunderstorms">Thunderstorms</string>
+    <string name="drizzle">Drizzle</string>
+    <string name="sandstorm">Sandstorm</string>
+    <string name="low">Low</string>
+    <string name="high">High</string>
+    <string name="feels">Feels</string>
+    <string name="like_c">Like</string>
+    <string name="high_str">High</string>
+    <string name="now">Now</string>
+    <string name="failed_to_get_location">Failed to get location</string>
+    <string name="enable_location_to_continue">Enable location to continue</string>
+    <string name="location_permission_not_granted">Location permission not granted</string>
+    <string name="check_your_internet_connection">Check your internet connection</string>
+    <string name="error_connecting_with_server">Error connecting with server</string>
+    <string name="precip">Precip</string>
+    <string name="chance">Chance</string>
+    <string name="wind">Wind</string>
+    <string name="_5_days_forecast">5 Days Forecast</string>
+    <string name="please_wait_loading">Please wait loading</string>
+    <string name="enable_location_access">Enable Location Access</string>
+    <string name="allow_access_for_weather_updates">Allow Access for Weather Updates</string>
+
+
+    <string name="c">°c</string>
+
+    <string name="kmh">kmh</string>
+    <string name="mm">mm</string>
+
+    <string name="h">H:</string>
+    <string name="l">L:</string>
+
+
+</resources>

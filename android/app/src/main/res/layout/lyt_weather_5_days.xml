@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:background="#BFBFBF"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_5sdp">
+
+        <ImageView
+            android:layout_width="@dimen/_12sdp"
+            android:layout_height="@dimen/_12sdp"
+            android:src="@drawable/ic_chart"
+            app:tint="@color/white" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:gravity="start"
+            android:layout_marginStart="@dimen/_3sdp"
+            android:layout_gravity="center"
+            android:text="@string/_5_days_forecast"
+            android:fontFamily="@font/font_bold"
+            android:textSize="@dimen/text_10sdp"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_5sdp"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/txt5DaysForCastDay0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:gravity="start"
+                tools:text="Mon"
+                android:fontFamily="@font/font_medium"
+                android:textSize="@dimen/text_9sdp"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:id="@+id/txt5DaysForCastDate0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:gravity="start"
+                tools:text="15/02"
+                android:textSize="@dimen/text_9sdp"
+                android:textColor="@color/white"
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/txt5DaysForCastIcon0"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:layout_height="@dimen/_13sdp"
+            android:src="@drawable/white_0"
+            />
+        <TextView
+            android:id="@+id/txt5DaysForCastWeather0"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:gravity="start"
+            tools:text="@string/clear_sky"
+            android:fontFamily="@font/font_medium"
+            android:textSize="@dimen/text_10sdp"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:id="@+id/txt5DaysForCastWeatherHighTemp0"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:gravity="center|end"
+            tools:text="32°"
+            android:alpha="0.7"
+            android:textSize="@dimen/text_10sdp"
+            android:textColor="@color/white"
+            />
+
+
+        <TextView
+            android:id="@+id/txt5DaysForCastWeatherLowTemp0"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:gravity="end"
+            tools:text="32°"
+            android:textSize="@dimen/text_10sdp"
+            android:textColor="@color/white"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_5sdp"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/txt5DaysForCastDay1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:gravity="start"
+                tools:text="Mon"
+                android:fontFamily="@font/font_medium"
+                android:textSize="@dimen/text_9sdp"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:id="@+id/txt5DaysForCastDate1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:gravity="start"
+                tools:text="15/02"
+                android:textSize="@dimen/text_9sdp"
+                android:textColor="@color/white"
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/txt5DaysForCastIcon1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:layout_height="@dimen/_13sdp"
+            android:src="@drawable/white_0"
+            />
+        <TextView
+            android:id="@+id/txt5DaysForCastWeather1"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:gravity="start"
+            tools:text="@string/clear_sky"
+            android:fontFamily="@font/font_medium"
+            android:textSize="@dimen/text_10sdp"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:id="@+id/txt5DaysForCastWeatherHighTemp1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:gravity="center|end"
+            tools:text="32°"
+            android:alpha="0.7"
+            android:textSize="@dimen/text_10sdp"
+            android:textColor="@color/white"
+            />
+
+
+        <TextView
+            android:id="@+id/txt5DaysForCastWeatherLowTemp1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:gravity="end"
+            tools:text="32°"
+            android:textSize="@dimen/text_10sdp"
+            android:textColor="@color/white"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_5sdp"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/txt5DaysForCastDay2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:gravity="start"
+                tools:text="Mon"
+                android:fontFamily="@font/font_medium"
+                android:textSize="@dimen/text_9sdp"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:id="@+id/txt5DaysForCastDate2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:gravity="start"
+                tools:text="15/02"
+                android:textSize="@dimen/text_9sdp"
+                android:textColor="@color/white"
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/txt5DaysForCastIcon2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:layout_height="@dimen/_13sdp"
+            android:src="@drawable/white_0"
+            />
+        <TextView
+            android:id="@+id/txt5DaysForCastWeather2"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:gravity="start"
+            tools:text="@string/clear_sky"
+            android:fontFamily="@font/font_medium"
+            android:textSize="@dimen/text_10sdp"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:id="@+id/txt5DaysForCastWeatherHighTemp2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:gravity="center|end"
+            tools:text="32°"
+            android:alpha="0.7"
+            android:textSize="@dimen/text_10sdp"
+            android:textColor="@color/white"
+            />
+
+
+        <TextView
+            android:id="@+id/txt5DaysForCastWeatherLowTemp2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:gravity="end"
+            tools:text="32°"
+            android:textSize="@dimen/text_10sdp"
+            android:textColor="@color/white"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_5sdp"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/txt5DaysForCastDay3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:gravity="start"
+                tools:text="Mon"
+                android:fontFamily="@font/font_medium"
+                android:textSize="@dimen/text_9sdp"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:id="@+id/txt5DaysForCastDate3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:gravity="start"
+                tools:text="15/02"
+                android:textSize="@dimen/text_9sdp"
+                android:textColor="@color/white"
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/txt5DaysForCastIcon3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:layout_height="@dimen/_13sdp"
+            android:src="@drawable/white_0"
+            />
+        <TextView
+            android:id="@+id/txt5DaysForCastWeather3"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:gravity="start"
+            tools:text="@string/clear_sky"
+            android:fontFamily="@font/font_medium"
+            android:textSize="@dimen/text_10sdp"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:id="@+id/txt5DaysForCastWeatherHighTemp3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:gravity="center|end"
+            tools:text="32°"
+            android:alpha="0.7"
+            android:textSize="@dimen/text_10sdp"
+            android:textColor="@color/white"
+            />
+
+
+        <TextView
+            android:id="@+id/txt5DaysForCastWeatherLowTemp3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:gravity="end"
+            tools:text="32°"
+            android:textSize="@dimen/text_10sdp"
+            android:textColor="@color/white"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_5sdp"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/txt5DaysForCastDay4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:gravity="start"
+                tools:text="Mon"
+                android:fontFamily="@font/font_medium"
+                android:textSize="@dimen/text_9sdp"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:id="@+id/txt5DaysForCastDate4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:gravity="start"
+                tools:text="15/02"
+                android:textSize="@dimen/text_9sdp"
+                android:textColor="@color/white"
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/txt5DaysForCastIcon4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:layout_height="@dimen/_13sdp"
+            android:src="@drawable/white_0"
+            />
+        <TextView
+            android:id="@+id/txt5DaysForCastWeather4"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:gravity="start"
+            tools:text="@string/clear_sky"
+            android:fontFamily="@font/font_medium"
+            android:textSize="@dimen/text_10sdp"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:id="@+id/txt5DaysForCastWeatherHighTemp4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:gravity="center|end"
+            tools:text="32°"
+            android:alpha="0.7"
+            android:textSize="@dimen/text_10sdp"
+            android:textColor="@color/white"
+            />
+
+
+        <TextView
+            android:id="@+id/txt5DaysForCastWeatherLowTemp4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:gravity="end"
+            tools:text="32°"
+            android:textSize="@dimen/text_10sdp"
+            android:textColor="@color/white"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

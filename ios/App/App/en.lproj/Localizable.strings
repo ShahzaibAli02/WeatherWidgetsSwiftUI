@@ -1,0 +1,90 @@
+/* 
+  Localizable.strings
+  App
+
+  Created by Shahzaib Ali on 04/08/2024.
+  
+*/
+"welcome_message" = "Welcome to our app";
+
+"weather_code_not_determined" = "Weather Code Not Determined";
+"clear_sky" = "Clear Sky";
+"light_clouds" = "Light Clouds";
+"partly_cloudy" = "Partly Cloudy";
+"cloudy" = "Cloudy";
+"rain" = "Rain";
+"rain_and_snow_sleet" = "Rain and Snow Sleet";
+"snow" = "Snow";
+"rain_shower" = "Rain Shower";
+"snow_shower" = "Snow Shower";
+"sleet_shower" = "Sleet Shower";
+"light_fog" = "Light Fog";
+"dense_fog" = "Dense Fog";
+"freezing_rain" = "Freezing Rain";
+"thunderstorms" = "Thunderstorms";
+"drizzle" = "Drizzle";
+"sandstorm" = "Sandstorm";
+
+
+"low" = "Low";
+"high" = "High";
+"feels" = "Feels";
+"like" = "Like";
+
+"precip" = "Precip";
+"chance" = "Chance";
+"wind" = "Wind";
+
+"five_days_forecast" = "5 Days Forecast";
+
+"now" = "Now";
+
+"location_error" = "Location Error";
+
+
+"unknown_error" = "Unknown Error";
+
+
+"enable_location_access" = "Enable Location Access";
+
+
+"check_internet_connection" = "Check Internet Connection";
+
+
+
+
+
+//DONT CHANGE
+
+"regular"="Roboto-Regular";
+"bold"="Roboto-Bold";
+"medium"="Roboto-Medium";
+
+
+
+"time_zone"="en_US_POSIX";
+"c"="c";
+
+"kmh"="kmh";
+"mm"="mm";
+"h"="H:";
+"l"="L:";
+
+
+"angle_N" = "N";
+"angle_NW" = "NW";
+"angle_W" = "W";
+"angle_SW" = "SW";
+"angle_S" = "S";
+"angle_SE" = "SE";
+"angle_E" = "E";
+"angle_NE" = "NE";
+
+
+
+
+//IMAGES DONT CHANGE AYTHING HERE
+"top_lines_widget" = "top_lines_widget_1";
+
+
+

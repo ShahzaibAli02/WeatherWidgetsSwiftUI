@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WeatherApp</string>
+
+
+    <string name="weather_code_not_determined">لا يمكن تحديد حالة الطقس</string>
+    <string name="clear_sky">صحو</string>
+    <string name="light_clouds">سحب خفيفة</string>
+    <string name="partly_cloudy">غائم جزئي</string>
+    <string name="cloudy">غائم</string>
+    <string name="rain">أمطار</string>
+    <string name="rain_and_snow_sleet">الأمطار الثلوج / الصقيع</string>
+    <string name="snow">الثلوج</string>
+    <string name="rain_shower">الأمطار الخفيفة</string>
+    <string name="snow_shower">الثلوج الخفيفة</string>
+    <string name="sleet_shower">تساقط البرد</string>
+    <string name="light_fog">الضباب الخفيف</string>
+    <string name="dense_fog">الضباب الكثيف</string>
+    <string name="freezing_rain">مطر متجمد</string>
+    <string name="thunderstorms">عواصف رعدية</string>
+    <string name="drizzle">رذاذ المطر</string>
+    <string name="sandstorm">العواصف الرملية</string>
+
+
+    <string name="feels">يشعر</string>
+    <string name="like_c">يحب</string>
+    <string name="low">منخفضة</string>
+    <string name="high">العظمى</string>
+    <string name="high_str">العظمى</string>
+    <string name="now">v</string>
+
+    <string name="failed_to_get_location">فشل الحصول على الموقع</string>
+    <string name="enable_location_to_continue">تمكين الموقع للمتابعة</string>
+    <string name="location_permission_not_granted">لم يتم منح إذن الموقع</string>
+    <string name="check_your_internet_connection">تحقق من اتصالك بالإنترنت</string>
+    <string name="error_connecting_with_server">خطأ في الاتصال بالخادم</string>
+    <string name="precip">تساقط</string>
+    <string name="_5_days_forecast">توقعات 5 أيام</string>
+    <string name="please_wait_loading">يرجى الانتظار التحميل</string>
+    <string name="enable_location_access">تمكين الوصول إلى الموقع</string>
+    <string name="allow_access_for_weather_updates">السماح بالوصول إلى تحديثات الطقس</string>
+
+    <string name="chance">فرصة</string>
+    <string name="wind">رياح</string>
+    <string name="c">°م</string>
+    <string name="kmh">كم/س</string>
+    <string name="mm">مم</string>
+    <string name="h">العظمى:</string>
+    <string name="l">منخفضة:</string>
+
+
+</resources>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+
+    android:id="@+id/root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/_150sdp"
+    android:layout_height="@dimen/_145sdp"
+    android:layout_gravity="center"
+    android:background="@drawable/yellow_round_stroke"
+    android:orientation="vertical"
+ >
+
+    <ImageView
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:src="@drawable/top_lines_widget_1"
+        android:layout_gravity="end"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingVertical="@dimen/_13sdp"
+        android:paddingHorizontal="@dimen/_12sdp"
+        android:orientation="vertical">
+
+
+
+
+        <include layout="@layout/lyt_error" />
+
+        <TextView
+            android:id="@+id/txtCityName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="Islamabad"
+            android:fontFamily="@font/font_medium"
+            android:textColor="#ffff"
+            android:textSize="@dimen/text_9sdp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtTemp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:textColor="#ffff"
+                android:gravity="clip_vertical"
+                android:fontFamily="@font/font_bold"
+                android:textSize="@dimen/text_35sdp"
+                tools:text="32°c" />
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    android:singleLine="true"
+                    android:text="@string/feels"
+                    android:textColor="#ffff"
+                    android:textSize="@dimen/text_9sdp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:includeFontPadding="false"
+                        android:singleLine="true"
+                        android:text="@string/like_c"
+                        android:textColor="#ffff"
+                        android:textSize="@dimen/text_9sdp" />
+                    <TextView
+                        android:id="@+id/txtFeelsLike"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_2sdp"
+                        android:includeFontPadding="false"
+                        android:singleLine="true"
+                        tools:text="31°"
+                        android:textColor="#ffff"
+                        android:textSize="@dimen/text_9sdp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgWeather"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            tools:src="@drawable/_10"
+            />
+
+        <TextView
+            android:id="@+id/txtWeather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            tools:text="@string/rain_and_snow_sleet"
+            android:textColor="#ffff"
+            android:ellipsize="end"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:textSize="@dimen/text_10sdp"
+            android:fontFamily="@font/font_bold"
+           />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:text="@string/high"
+                android:textColor="#ffff"
+                android:textSize="@dimen/text_8sdp"
+                 />
+
+            <TextView
+                android:id="@+id/txtTempHigh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_2sdp"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:textColor="#ffff"
+                android:textSize="@dimen/text_9sdp"
+                android:fontFamily="@font/font_medium"
+                tools:text="30°c" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:text="@string/low"
+                android:textColor="#ffff"
+                android:textSize="@dimen/text_8sdp"
+               />
+
+            <TextView
+                android:id="@+id/txtLowTemp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_2sdp"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:textColor="#ffff"
+                android:textSize="@dimen/text_9sdp"
+                android:fontFamily="@font/font_medium"
+                tools:text="30°c" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

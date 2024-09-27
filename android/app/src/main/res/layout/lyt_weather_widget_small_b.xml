@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/_150sdp"
+    android:layout_height="@dimen/_145sdp"
+    android:layout_gravity="center"
+    android:background="@drawable/yellow_round_stroke"
+    android:orientation="vertical"
+ >
+
+    <ImageView
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:src="@drawable/top_lines_widget_1"
+        android:layout_gravity="end"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingVertical="@dimen/_11sdp"
+        android:paddingHorizontal="@dimen/_12sdp"
+        android:orientation="vertical">
+
+
+
+
+        <include layout="@layout/lyt_error" />
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/txtCityName"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="Islamabad"
+                    android:fontFamily="@font/font_medium"
+                    android:textColor="#ffff"
+                    android:textSize="@dimen/text_9sdp" />
+                <TextView
+                    android:id="@+id/txtTemp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    android:singleLine="true"
+                    android:textColor="#ffff"
+                    android:fontFamily="@font/font_bold"
+                    android:textSize="@dimen/text_35sdp"
+                    tools:text="32°c" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:id="@+id/imgWeather"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    tools:src="@drawable/_10"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:orientation="horizontal">
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:includeFontPadding="false"
+                        android:singleLine="true"
+                        android:text="@string/h"
+                        android:textColor="#ffff"
+                        android:textSize="@dimen/text_8sdp"
+                        />
+
+                    <TextView
+                        android:id="@+id/txtTempHigh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_2sdp"
+                        android:includeFontPadding="false"
+                        android:singleLine="true"
+                        android:textColor="#ffff"
+                        android:textSize="@dimen/text_9sdp"
+                        android:fontFamily="@font/font_medium"
+                        tools:text="30°c" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:orientation="horizontal">
+
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:includeFontPadding="false"
+                        android:singleLine="true"
+                        android:text="@string/l"
+                        android:textColor="#ffff"
+                        android:textSize="@dimen/text_8sdp"
+                        />
+
+                    <TextView
+                        android:id="@+id/txtLowTemp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_2sdp"
+                        android:includeFontPadding="false"
+                        android:singleLine="true"
+                        android:textColor="#ffff"
+                        android:textSize="@dimen/text_9sdp"
+                        android:fontFamily="@font/font_medium"
+                        tools:text="30°c" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/precip"
+                android:fontFamily="@font/font_medium"
+                android:textColor="#ffff"
+                android:textSize="@dimen/text_12sdp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                />
+            <TextView
+                android:id="@+id/txtPrecip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                tools:text="0.0.2 in"
+                android:alpha="0.8"
+                android:textColor="#ffff"
+                android:textSize="@dimen/text_12sdp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_5sdp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/chance"
+                android:fontFamily="@font/font_medium"
+                android:textColor="#ffff"
+                android:textSize="@dimen/text_12sdp" />
+            <TextView
+                android:id="@+id/txtChance"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:gravity="end"
+                tools:text="70 %"
+                android:alpha="0.8"
+                android:textColor="#ffff"
+                android:textSize="@dimen/text_12sdp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_5sdp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/wind"
+                android:fontFamily="@font/font_medium"
+                android:textColor="#ffff"
+                android:textSize="@dimen/text_12sdp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                />
+            <TextView
+                android:id="@+id/txtWind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:gravity="end"
+                tools:text="12kph N"
+                android:alpha="0.8"
+                android:textColor="#ffff"
+                android:textSize="@dimen/text_12sdp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

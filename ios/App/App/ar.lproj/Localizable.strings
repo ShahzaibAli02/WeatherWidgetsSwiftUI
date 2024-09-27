@@ -1,0 +1,76 @@
+/* 
+  Localizable.strings
+  App
+
+  Created by Shahzaib Ali on 04/08/2024.
+  
+*/
+"welcome_message" = "مرحبًا بك في تطبيقنا";
+
+
+"weather_code_not_determined" = "رمز الطقس غير محدد";
+"clear_sky" = "سماء صافية";
+"light_clouds" = "غيوم خفيفة";
+"partly_cloudy" = "غائم جزئيًا";
+"cloudy" = "غائم";
+"rain" = "مطر";
+"rain_and_snow_sleet" = "مطر وثلوج";
+"snow" = "ثلج";
+"rain_shower" = "زخات مطر";
+"snow_shower" = "زخات ثلج";
+"sleet_shower" = "زخات جليدية";
+"light_fog" = "ضباب خفيف";
+"dense_fog" = "ضباب كثيف";
+"freezing_rain" = "أمطار متجمدة";
+"thunderstorms" = "عواصف رعدية";
+"drizzle" = "رذاذ";
+"sandstorm" = "عاصفة رملية";
+
+"low" = "قليل";
+"high" = "عالي";
+"feels" = "يشعر";
+"like" = "يحب";
+
+"precip" = "تساقط";
+"chance" = "فرصة";
+"wind" = "رياح";
+"five_days_forecast" = "توقعات الطقس لخمسة أيام";
+
+"now" = "الآن";
+"location_error" = "خطأ في الموقع";
+
+"unknown_error" = "خطأ غير معروف";
+
+"enable_location_access" = "تمكين الوصول إلى الموقع";
+
+"check_internet_connection" = "التحقق من اتصال الإنترنت";
+
+
+//DONT CHANGE
+
+"regular"="SomarSans-Regular";
+"bold"="SomarSans-Bold";
+"medium"="SomarSans-Medium";
+
+
+"time_zone"="ar_SA_POSIX";
+"c"="م";
+
+"kmh"="كم/س";
+"mm"="مم";
+"h"="العظمى:";
+"l"="منخفضة:";
+
+
+"angle_N" = "شمالية";
+"angle_NW" = "شمالية غربية";
+"angle_W" = "غربية";
+"angle_SW" = "جنوبية غربية";
+"angle_S" = "جنوبية";
+"angle_SE" = "جنوبية شرقية";
+"angle_E" = "شرقية";
+"angle_NE" = "شمالية شرقية";
+
+
+//IMAGES DONT CHANGE AYTHING HERE
+"top_lines_widget" = "top_lines_widget_1_ar";

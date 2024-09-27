@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="text_35sdp">@dimen/_30sdp</dimen>
+    <dimen name="text_8sdp">@dimen/_6sdp</dimen>
+    <dimen name="text_9sdp">@dimen/_7sdp</dimen>
+    <dimen name="text_10sdp">@dimen/_8sdp</dimen>
+    <dimen name="text_12sdp">@dimen/_9sdp</dimen>
+    <dimen name="text_13sdp">@dimen/_10sdp</dimen>
+    <dimen name="text_7sdp">@dimen/_5sdp</dimen>
+
+</resources>
